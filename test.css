@@ -40,3 +40,24 @@ body{
   color: #DE4EAC;
   font-family:cursive;
 }
+
+a:hover {
+  text-decoration:none;
+}
+
+.one_abz:first-letter {
+  font-size: 1.2em;
+ padding: 5px 10px;
+ margin-right: 5px;
+ margin-bottom: 2px;
+ background: #EE9966;
+ color: #FAF4F4;
+ float: left;
+ font-weight: bold;
+
+
+}
+
+.lh {
+  line-height: 7px;
+}
