@@ -86,11 +86,9 @@ a:hover {
 }
 
 .link_two{
-
 text-decoration:none;
  margin-left: -100px;
  padding-left:27px;
- display: block;
  background-image:url(6.png);
  background-position:left;
  background-repeat: no-repeat;
@@ -98,4 +96,15 @@ text-decoration:none;
 .link_two:hover{
 text-decoration:underline;
 color: #0BD0F5;
+}
+button{
+  color: blue;
+  font-size: 15px;
+  padding: 5px 25px 5px 25px;
+  text-decoration: none;
+  font-family:cursive;
+}
+button:hover{
+  background: yellow;
+  border-radius: 30px;
 }
