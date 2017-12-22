@@ -33,6 +33,7 @@ body{
 }
 .cont:hover{
   background: silver;
+  transition: 1s;
 }
 
 #sh{
@@ -96,6 +97,7 @@ text-decoration:none;
 .link_two:hover{
 text-decoration:underline;
 color: #0BD0F5;
+transition: 0.3s;
 }
 button{
   color: blue;
@@ -107,4 +109,5 @@ button{
 button:hover{
   background: yellow;
   border-radius: 30px;
+  transition: 3s;
 }
