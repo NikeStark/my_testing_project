@@ -260,4 +260,33 @@ font-size: 20px;
 font-family:cursive;
 }
 
+.bor{
+  color: yellow;
+  border:3px double blue;
+  margin-right: 850px;
+  text-align: center;
+  outline: dotted orange;
+  outline-width: 5px;
 
+}
+.bor:hover{
+  outline-style:none;
+  transition: 4s;
+}
+
+.bor2{
+  color: yellow;
+  border:double 4px blue;
+  border-style: dotted solid dotted solid;
+  border-color: red blue red blue;
+  margin-right: 850px;
+  text-align: center;
+  transition: 4s;
+
+}
+.bor2:hover{
+  border-color: blue red blue red;
+  transition: 4s;
+  cursor:pointer;
+  color: white;
+}
