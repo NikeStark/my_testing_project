@@ -443,3 +443,24 @@ margin: 0 auto;
 cursor:auto;
 width: 100%;
 }
+.gr8{
+  position:absolute;
+  margin-top: 30px;
+  width: 350px;
+  height: 200px;
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 5px, #465298 5px, #465298 10px);
+}
+.gr9{
+  margin-top: 30px;
+  margin-left: 400px;
+  width: 350px;
+  height: 200px;
+  background: repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 5px, #82DDFF 5px, #82DDFF 10px);
+}
+.gr10{
+  margin: 30px 0 0 -70px;
+  width: 900px;
+  height: 453px;
+  background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(https://html5book.ru/wp-content/uploads/2016/12/photo-8.jpg); 
+  background-size:cover;
+}
