@@ -267,6 +267,7 @@ font-family:cursive;
   text-align: center;
   outline: dotted orange;
   outline-width: 5px;
+  outline-offset: 5px;
 
 }
 .bor:hover{
@@ -547,8 +548,74 @@ width: 100%;
 }
 
 .rad12{
-  position:absolute;
   margin-left: 650px;
   border-top-left-radius: 100% 20px;
   border-bottom-right-radius: 100% 20px;
+}
+
+.bord{
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  border-image-width: 20px;
+  border-image-source: url("border.png");
+  border-image-slice: 30;
+}
+.bord1{
+  margin-left: 400px;
+  width: 350px;
+  height: 150px;
+  border-image-width: 20px;
+  border-image-source: url("border.png");
+  border-image-slice: 30;
+  border-image-repeat:round;
+}
+.flag{
+  text-align: center;
+  padding-top:100px;
+  margin-left: 210px;
+  width: 300px;
+  height:200px;
+  border-image-width: 40px;
+  border-image-source: url("flag.png");
+  border-image-slice:40;
+  border-image-repeat:round;
+  color: aqua;
+  font-size: 25px;
+
+}
+.flag:hover{
+  background-color: aqua;
+  transition: 2s;
+}
+.flag{
+  transition: 2s;
+}
+.min:hover{
+  margin-top: -80px;
+  transition: 3s;
+  cursor:pointer;
+}
+.min{
+  transition: 2s;
+}
+.shar{
+margin-top: -70px;
+margin-left: -67px;
+}
+.wrap_grad {
+  margin-left: 140px;
+width:400px;
+height: 200px;
+padding: 25px;
+background: #00E4F6;
+}
+
+.gradient {
+height: 150px;
+width: 50%;
+margin: 0 auto;
+border: 10px solid transparent;
+border-image: linear-gradient(to right, transparent 0%, #ADF2F7 100%);
+border-image-slice: 1;
 }
