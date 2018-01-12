@@ -619,3 +619,59 @@ border: 10px solid transparent;
 border-image: linear-gradient(to right, transparent 0%, #ADF2F7 100%);
 border-image-slice: 1;
 }
+
+.shadow1{
+  width: 700px;
+  height: 150px;
+  background:#77F7DE;
+}
+.shadow1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 90px;
+  color: white;
+  letter-spacing: 0.1em;
+   text-shadow: -2px -2px 0 #4D4644, 2px -2px 0 #4D4644, -2px 2px 0 #4D4644, 2px 2px 0 #4D4644, 4px 4px 0 white, 5px 5px 0 white, 6px 6px 0 white;
+}
+.shadow2{
+  width: 700px;
+  height: 150px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 90px;
+  color: white;
+  background:linear-gradient(-45deg,#FEE864, #F5965E);
+  text-shadow:  -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+}
+.shadow3{
+  width: 700px;
+  height: 150px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 90px;
+  background: black;
+  color: white;
+  text-shadow: 0 0 55px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+}
+.heart{
+  width: 700px;
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 200px;
+  background:#FFDAF9;
+  color: white;
+  text-shadow: 5px 6px 2px grey,-5px 6px 2px grey;
+  transition: 2s;
+}
+.heart:hover{
+  padding-top: 30px ;
+  text-shadow: 5px 6px 3px grey,-5px 6px 3px grey,5px 6px 60px grey,-5px 6px 60px grey;
+
+  transition: 2s;
+}
+.heart{
+
+}
