@@ -675,3 +675,20 @@ border-image-slice: 1;
 .heart{
 
 }
+
+.treg{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid aqua;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+.treg1{
+  margin-left: 150px;
+  width: 0;
+  height: 0;
+  border-top: 100px solid aqua;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+}
