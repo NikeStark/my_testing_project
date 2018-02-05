@@ -692,3 +692,19 @@ border-image-slice: 1;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
 }
+
+.animation {
+  width: 80px;
+  height: 80px;
+  border: 3px solid aqua;
+  background: grey;
+  margin: 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0,.4);
+  animation-name: spin;
+  animation-duration: 2s;
+}
+
+@keyframes spin {
+from {transform:rotate(0deg);}
+to {transform:rotate(360deg);}
+}
