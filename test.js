@@ -1,4 +1,27 @@
+
+
+
+
+
 //Циклы
+
+var color = new Array ("Red","Blue","Yellow","Silver");
+console.log (color[2]);
+
+/*var i = 20;
+do {
+console.log(i);
+} while (i < 10);/
+
+
+/*var i = 300;
+while (i>=10) {
+console.log(i);
+  i/=10;
+}*/
+
+//for (var i = 0; i < 10; i++){
+  //console.log (i);}
 
 
 //Массивы
@@ -19,6 +42,6 @@ var num = "Hello world!";
 var Num = 2;
 console.log (num);
 
-//Comments
+//Conclusion is messages
 //var name = prompt ("What your name?");
 //console.log ("My name is " + name);
