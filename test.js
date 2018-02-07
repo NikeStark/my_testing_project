@@ -1,12 +1,13 @@
 
+//Операторы условий
 
 
 
 
 //Циклы
-
 var color = new Array ("Red","Blue","Yellow","Silver");
-console.log (color[2]);
+for(var i = 0;i < color.length; i++)
+console.log (color[i]);
 
 /*var i = 20;
 do {
