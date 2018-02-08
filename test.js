@@ -1,7 +1,69 @@
+//Обькты
+var FirstName = {
+  name: 'Bred',
+  age: 25,
+  childrens: ['Liza','Petya'],
+  adress: {
+    city: 'Boston',
+    state: 'st',
+    street: '555 some st'
+  },
+
+NameAge: function(){
+  return this.name + this.age;
+}
+}
+console.log (FirstName.NameAge());
+
+document.write ("Name: "+FirstName.name+" , "+"age: "+FirstName.age+" , "+"city: "+FirstName.adress.city+"."+"<br>");
+
+//Функции
+function write(word){
+  document.write(word);
+}
+write("Hello");
+write("<br>");
+write("World")
+write("<br>");
+
+function sum (a,b,c){
+  return (a+b)*2;
+}
+document.write(sum (25,25)+("<br>"));
 
 //Операторы условий
+var num_1 = 15;
+var num_2 = 20;
+if (num_1 == num_2) {
+  console.log("Answer is false: "+num_1+" == "+num_2);
+}
+else if (num_1 != num_2){
+  console.log("Answer is true: "+num_1+" != "+num_2);
+}
+else {
+  console.log("Not right answers");
+}
 
-
+var res = 3;
+switch (res) {
+  case 1:
+    alert("Введите пороль: "+res);
+    break;
+  case 2:
+    alert("Введите пороль: "+res);
+    break;
+  case 3:
+    var rez = 123;
+    console.log("Введите пороль: ");
+    if (rez = 123) {
+      console.log("Password is true!!!");
+    } else {
+      console.log("Password is wrong!!!");
+    }
+    break;
+  default:
+    alert("wrong is password");
+}
 
 
 //Циклы
