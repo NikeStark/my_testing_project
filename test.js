@@ -1,3 +1,27 @@
+
+
+//Конструктор с объектами
+function Fruit(color,shape){
+this.color = color;
+this.shape = shape;
+}
+var melon = new Fruit ('yellow', 'round');
+var apple = new Fruit ('red', 'round');
+
+
+//Конструкторы при создании объектов
+//var apple = new Object();
+  //apple.color = 'Green';
+  //apple.shape = 'round';
+  //apple.weight = 'hundred gramm';
+
+  apple.discribe = function(){
+    return 'As apple is '+ this.color;
+  }
+
+  console.log (apple.discribe());
+
+
 //Обькты
 var FirstName = {
   name: 'Bred',
@@ -108,3 +132,8 @@ console.log (num);
 //Conclusion is messages
 //var name = prompt ("What your name?");
 //console.log ("My name is " + name);
+
+function changeColor (newColor){
+  var element = document.getElementById('text');
+  element.style.color = newColor;
+}
