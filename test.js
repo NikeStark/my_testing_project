@@ -137,3 +137,15 @@ function changeColor (newColor){
   var element = document.getElementById('text');
   element.style.color = newColor;
 }
+
+function validateForm (){
+  var element = document.forms["myForm"] ["fname"].value;
+    var tel = document.forms["myForm"] ["ftel"].value;
+  if (element == ""){
+    alert("Имя должно быть заполнено!");
+    return false;
+  } else if(tel == ""){
+      alert("Введите телефон!");
+      return false;
+  }
+}
